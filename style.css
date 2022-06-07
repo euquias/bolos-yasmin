@@ -1,0 +1,254 @@
+/*
+Template Name: yasmin bolo
+Author: euquias araujo
+Version: 1.0
+Desctiption: Modelo portifolio Bootstrap responsivo de uma página
+*/
+/*
+====================================
+[ CSS TABLE CONTENT ]
+------------------------------------
+	1.0 - GLOBAL SYTLES	
+	2.0 - card SECTION
+	3.0 - CONTACT SECTION
+	4.0 - GOOGLE MAP
+	5.0 - FOOTER SECTION 
+-------------------------------------
+
+=====================================
+*/
+/* ==========================================================================
+   1.0 - GLOBAL SYTLES
+   ========================================================================== */
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color:  #888888;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*   font-weight: 200%; */
+  font-size: 150%;
+    color: black;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+h2 {
+    color: black;
+    font-weight: 500;
+    
+}
+
+/* Paragraph & Typographic */
+
+p {
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+p.large {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+ .whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #ffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow:1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp{
+    margin-top: 16px;
+    color: #fff;
+} 
+
+
+
+/* ==========================================================================
+   2.0 - card SECTION
+   ========================================================================== */
+
+#fn-feedbacks .feedback-box {
+    padding: 25px;
+    margin: 13px;
+    text-align: left;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    z-index: 5;
+}
+.feedback-box .message {
+    color: rgb(150, 25, 108);
+}
+.feedback-box .client-info .client-name {
+    color: #404040;
+	font-weight: 400;
+	line-height: 30px;
+}
+.feedback-box .client-info .client-company {
+    margin-top: -3px;
+}
+
+.customNavigation {
+    text-align: center;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: #fff !important;
+    border-radius: 50%;
+} 
+
+
+/* ==========================================================================
+   13.0 - CONTACT SECTION
+   ========================================================================== */
+#contact {
+    background: #fff;
+    text-align: center;
+}
+#contact .form {
+    padding: 30px 0;
+}
+#contact .fa {
+    color: palevioletred;
+    margin-bottom: 10px;
+}
+#contact .btn {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: palevioletred;
+    color: #fff;
+    border: 0;
+}
+#contact .btn:hover,
+#contact .btn:focus {
+    background-color: #d42a9c;
+    outline: 0px;
+}
+
+/*============================================================
+	4.0 - GOOGLE MAP
+==============================================================*/
+#google-map {
+    padding: 0;
+}
+#map-canvas {
+    width: 100%;
+    height: 300px;
+}
+
+/* ==========================================================================
+   5.0 - FOOTER SECTION 
+   ========================================================================== */
+.fn-footer {
+    background: radial-gradient(circle at 100% 0%, #ff84f1 0, #ff75ee 25%, #f463e8 50%, #d852e2 75%, #bd47df 100%);;
+    color: #fff;
+}
+#sub-footer {
+    border-top: 1px solid #fff;
+    background: radial-gradient(circle at 100% 0%, #ff84f1 0, #ff75ee 25%, #f463e8 50%, #d852e2 75%, #bd47df 100%);
+}
+.fn-footer {
+    padding: 50px 0 0 0;
+}
+.fn-footer a {
+    color: #fff;
+}
+.fn-footer a:hover {
+    color: #E2E2E2;
+}
+.fn-footer h1,
+.fn-footer h2,
+.fn-footer h3,
+.fn-footer h4,
+.fn-footer h5,
+.fn-footer h6 {
+    color: #fff;
+    font-weight: bold;
+}
+.fn-footer address {
+    line-height: 1.6em;
+}
+.fn-footer h5 a:hover,
+footer a:hover {
+    text-decoration: none;
+}
+ul.social-network {
+    list-style: none;
+    margin: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+.fn-footer ul.social-network li i {
+    font-size: 16px;
+}
+#sub-footer {
+    margin: 20px 0 0;
+    padding: 30px 0;
+    text-shadow: none;
+}
+#sub-footer p {
+    margin: 0;
+    padding: 0;
+}
+
+#sub-footer ul.social-network {
+    float: right;
+}
+ul.link-list {
+    float: none;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+ul.link-list li {
+    float: none;
+    list-style: outside none none;
+    margin: 0;
+    padding: 2px 0;
+}
+.fn-footer ul.link-list li a {
+    color: #fff;
+}
+.btn-theme {
+    background: #d42a9c none repeat scroll 0 0;
+    border: 1px solid #d42a9c;
+}
+.btn-theme {
+    color: #fff;
+}
+.cor{
+    background-image: radial-gradient(circle at 100% 0%, #ff84f1 0, #ff75ee 25%, #f463e8 50%, #d852e2 75%, #bd47df 100%);
+}
+.navbar-navbar-expand-lg{
+    background-image: radial-gradient(circle at 100% 0%, #ff84f1 0, #ff75ee 25%, #f463e8 50%, #d852e2 75%, #bd47df 100%);
+}
